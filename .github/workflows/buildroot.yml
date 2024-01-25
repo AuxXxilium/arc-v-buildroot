@@ -43,7 +43,7 @@ jobs:
           
       - name: Build Buildroot
         run: |
-          git clone https://oauth2:${{ secrets.ACTION }}@github.com/AuxXxilium/arc-build.git
+          git clone https://oauth2:${{ secrets.ACTION }}@github.com/AuxXxilium/arc-v-build.git
           
           BR_VERSION="${{ inputs.version }}"
 
